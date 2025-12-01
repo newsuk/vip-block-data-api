@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: vip-block-data-api
+  description: Component for vip-block-data-api
+  annotations:
+    circleci.com/project-slug: github/newsuk/vip-block-data-api
+    backstage.io/source-location: url:https://github.com/newsuk/vip-block-data-api/
+    github.com/team-slug: newsuk/vip-block-data-api
+    backstage.io/productivity-hub-metrics-enabled: 'true'
+  tags:
+    - bu:newsuk
+spec:
+  type: service
+  lifecycle: production
+  owner: nuk
